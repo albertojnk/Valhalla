@@ -1,10 +1,10 @@
 package lifepool
 
 import (
-	"github.com/Hucaru/Valhalla/constant/opcode"
-	"github.com/Hucaru/Valhalla/mpacket"
-	"github.com/Hucaru/Valhalla/server/field/lifepool/mob"
-	"github.com/Hucaru/Valhalla/server/field/lifepool/npc"
+	"github.com/albertojnk/Valhalla/constant/opcode"
+	"github.com/albertojnk/Valhalla/mpacket"
+	"github.com/albertojnk/Valhalla/server/field/lifepool/mob"
+	"github.com/albertojnk/Valhalla/server/field/lifepool/npc"
 )
 
 func packetNpcShow(npc npc.Data) mpacket.Packet {

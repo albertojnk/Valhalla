@@ -2,15 +2,16 @@ package main
 
 import (
 	"flag"
+	"fmt"
 	"log"
 )
 
 func main() {
-	typePtr := flag.String("type", "", "Denotes what type of server to start: login, world, channel")
-	configPtr := flag.String("config", "", "config toml file")
+	typePtr := flag.String("type", "login", "Denotes what type of server to start: login, world, channel")
+	configPtr := flag.String("config", "config_login.toml", "config toml file")
 
 	flag.Parse()
-
+	fmt.Println(*typePtr, *configPtr)
 	switch *typePtr {
 	case "login":
 		s := newLoginServer(*configPtr)

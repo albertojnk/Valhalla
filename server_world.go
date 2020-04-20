@@ -7,9 +7,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Hucaru/Valhalla/mnet"
-	"github.com/Hucaru/Valhalla/mpacket"
-	"github.com/Hucaru/Valhalla/server"
+	"github.com/albertojnk/Valhalla/mnet"
+	"github.com/albertojnk/Valhalla/mpacket"
+	"github.com/albertojnk/Valhalla/server"
 )
 
 type worldServer struct {

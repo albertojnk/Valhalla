@@ -8,11 +8,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Hucaru/Valhalla/mnet"
-	"github.com/Hucaru/Valhalla/mpacket"
-	"github.com/Hucaru/Valhalla/nx"
-	"github.com/Hucaru/Valhalla/server/item"
-	"github.com/Hucaru/Valhalla/server/message"
+	"github.com/albertojnk/Valhalla/mnet"
+	"github.com/albertojnk/Valhalla/mpacket"
+	"github.com/albertojnk/Valhalla/nx"
+	"github.com/albertojnk/Valhalla/server/item"
+	"github.com/albertojnk/Valhalla/server/message"
 )
 
 func (server *ChannelServer) chatSendAll(conn mnet.Client, reader mpacket.Reader) {

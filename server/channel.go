@@ -8,13 +8,13 @@ import (
 
 	_ "github.com/go-sql-driver/mysql" // don't need full import
 
-	"github.com/Hucaru/Valhalla/constant/opcode"
-	"github.com/Hucaru/Valhalla/mnet"
-	"github.com/Hucaru/Valhalla/mpacket"
-	"github.com/Hucaru/Valhalla/nx"
-	"github.com/Hucaru/Valhalla/server/field"
-	"github.com/Hucaru/Valhalla/server/message"
-	"github.com/Hucaru/Valhalla/server/player"
+	"github.com/albertojnk/Valhalla/constant/opcode"
+	"github.com/albertojnk/Valhalla/mnet"
+	"github.com/albertojnk/Valhalla/mpacket"
+	"github.com/albertojnk/Valhalla/nx"
+	"github.com/albertojnk/Valhalla/server/field"
+	"github.com/albertojnk/Valhalla/server/message"
+	"github.com/albertojnk/Valhalla/server/player"
 )
 
 type players []*player.Data

@@ -3,9 +3,9 @@ package mnet
 import (
 	"net"
 
-	"github.com/Hucaru/Valhalla/mnet/crypt"
+	"github.com/albertojnk/Valhalla/mnet/crypt"
 
-	"github.com/Hucaru/Valhalla/mpacket"
+	"github.com/albertojnk/Valhalla/mpacket"
 )
 
 type MConn interface {

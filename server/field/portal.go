@@ -1,8 +1,8 @@
 package field
 
 import (
-	"github.com/Hucaru/Valhalla/nx"
-	"github.com/Hucaru/Valhalla/server/pos"
+	"github.com/albertojnk/Valhalla/nx"
+	"github.com/albertojnk/Valhalla/server/pos"
 )
 
 // Portal that can be plaed in a field

@@ -4,9 +4,9 @@ import (
 	"log"
 	"time"
 
-	"github.com/Hucaru/Valhalla/constant/opcode"
-	"github.com/Hucaru/Valhalla/mnet"
-	"github.com/Hucaru/Valhalla/mpacket"
+	"github.com/albertojnk/Valhalla/constant/opcode"
+	"github.com/albertojnk/Valhalla/mnet"
+	"github.com/albertojnk/Valhalla/mpacket"
 )
 
 // WorldServer data

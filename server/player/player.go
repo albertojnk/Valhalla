@@ -7,11 +7,11 @@ import (
 	"math"
 	"math/rand"
 
-	"github.com/Hucaru/Valhalla/constant"
-	"github.com/Hucaru/Valhalla/mnet"
-	"github.com/Hucaru/Valhalla/mpacket"
-	"github.com/Hucaru/Valhalla/server/item"
-	"github.com/Hucaru/Valhalla/server/pos"
+	"github.com/albertojnk/Valhalla/constant"
+	"github.com/albertojnk/Valhalla/mnet"
+	"github.com/albertojnk/Valhalla/mpacket"
+	"github.com/albertojnk/Valhalla/server/item"
+	"github.com/albertojnk/Valhalla/server/pos"
 )
 
 type sender interface {

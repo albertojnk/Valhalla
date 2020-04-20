@@ -4,9 +4,9 @@ import (
 	"database/sql"
 	"log"
 
-	"github.com/Hucaru/Valhalla/mnet"
-	"github.com/Hucaru/Valhalla/nx"
-	"github.com/Hucaru/Valhalla/server/item"
+	"github.com/albertojnk/Valhalla/mnet"
+	"github.com/albertojnk/Valhalla/nx"
+	"github.com/albertojnk/Valhalla/server/item"
 )
 
 // GetCharactersFromAccountWorldID - characters under a specific account

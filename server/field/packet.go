@@ -1,9 +1,9 @@
 package field
 
 import (
-	"github.com/Hucaru/Valhalla/constant/opcode"
-	"github.com/Hucaru/Valhalla/mpacket"
-	"github.com/Hucaru/Valhalla/server/pos"
+	"github.com/albertojnk/Valhalla/constant/opcode"
+	"github.com/albertojnk/Valhalla/mpacket"
+	"github.com/albertojnk/Valhalla/server/pos"
 )
 
 func packetMapPlayerEnter(plr player) mpacket.Packet {

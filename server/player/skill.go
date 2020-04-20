@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/Hucaru/Valhalla/nx"
+	"github.com/albertojnk/Valhalla/nx"
 )
 
 type Skill struct {

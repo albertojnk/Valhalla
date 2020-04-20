@@ -1,10 +1,10 @@
 package npc
 
 import (
-	"github.com/Hucaru/Valhalla/mnet"
-	"github.com/Hucaru/Valhalla/mpacket"
-	"github.com/Hucaru/Valhalla/nx"
-	"github.com/Hucaru/Valhalla/server/pos"
+	"github.com/albertojnk/Valhalla/mnet"
+	"github.com/albertojnk/Valhalla/mpacket"
+	"github.com/albertojnk/Valhalla/nx"
+	"github.com/albertojnk/Valhalla/server/pos"
 )
 
 // Controller of the npc

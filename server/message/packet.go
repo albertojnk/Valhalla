@@ -1,8 +1,8 @@
 package message
 
 import (
-	"github.com/Hucaru/Valhalla/constant/opcode"
-	"github.com/Hucaru/Valhalla/mpacket"
+	"github.com/albertojnk/Valhalla/constant/opcode"
+	"github.com/albertojnk/Valhalla/mpacket"
 )
 
 // PacketMessageRedText - sends red error message to client chat window

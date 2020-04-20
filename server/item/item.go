@@ -7,9 +7,9 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/Hucaru/Valhalla/constant"
-	"github.com/Hucaru/Valhalla/mpacket"
-	"github.com/Hucaru/Valhalla/nx"
+	"github.com/albertojnk/Valhalla/constant"
+	"github.com/albertojnk/Valhalla/mpacket"
+	"github.com/albertojnk/Valhalla/nx"
 	"github.com/google/uuid"
 )
 
@@ -151,7 +151,9 @@ func LoadInventoryFromDb(db *sql.DB, charID int32) ([]Data, []Data, []Data, []Da
 }
 
 // CreatePerfectFromID creates an item with bis stats
-func CreatePerfectFromID(id int32, amount int16) (Data, error) { return createItemFromID(id, amount, 1) }
+func CreatePerfectFromID(id int32, amount int16) (Data, error) {
+	return createItemFromID(id, amount, 1)
+}
 
 // CreateFromID creates an item with randomised stats within a predefined percentage range
 func CreateFromID(id int32, amount int16) (Data, error) { return createItemFromID(id, amount, 0) }

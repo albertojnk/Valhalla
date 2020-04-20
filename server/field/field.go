@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/Hucaru/Valhalla/nx"
-	"github.com/Hucaru/Valhalla/server/field/lifepool"
-	"github.com/Hucaru/Valhalla/server/field/rectangle"
+	"github.com/albertojnk/Valhalla/nx"
+	"github.com/albertojnk/Valhalla/server/field/lifepool"
+	"github.com/albertojnk/Valhalla/server/field/rectangle"
 )
 
 // Field data

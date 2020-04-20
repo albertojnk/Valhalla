@@ -3,7 +3,7 @@ package movement
 import (
 	"fmt"
 
-	"github.com/Hucaru/Valhalla/mpacket"
+	"github.com/albertojnk/Valhalla/mpacket"
 )
 
 // Frag data asociated with a movement

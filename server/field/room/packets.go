@@ -1,8 +1,8 @@
 package room
 
 import (
-	"github.com/Hucaru/Valhalla/constant/opcode"
-	"github.com/Hucaru/Valhalla/mpacket"
+	"github.com/albertojnk/Valhalla/constant/opcode"
+	"github.com/albertojnk/Valhalla/mpacket"
 )
 
 func packetRoomShowWindow(roomType, boardType, maxPlayers, roomSlot byte, roomTitle string, players []player) mpacket.Packet {

@@ -1,4 +1,4 @@
-module github.com/Hucaru/Valhalla
+module github.com/albertojnk/Valhalla
 
 require (
 	github.com/BurntSushi/toml v0.3.1
@@ -6,6 +6,7 @@ require (
 	github.com/fsnotify/fsnotify v1.4.7
 	github.com/go-sql-driver/mysql v1.4.1
 	github.com/google/uuid v1.1.1
+	golang.org/x/sys v0.0.0-20200413165638-669c56c373c4 // indirect
 	google.golang.org/appengine v1.4.0 // indirect
 )
 
